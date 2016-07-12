@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 气泡对话框 卷轴式</title>
+    <style type="text/css">
+        .qipao{
+            width: 800px;
+            height: 1280px;
+            border:1px solid blue;
+            margin: 12px;
+
+        }
+        /*背景填充等腰三角尖角*/
+        .c_box{
+            margin: 12px;
+            padding: 0px;
+            width: 100px;
+            height:30px;
+            line-height:30px;
+            text-align: center;
+            background:orange;
+            position:relative;
+        }
+        .c_box_cor{
+            width:0px;
+            height:0px;
+            font-size:0;
+            overflow:hidden;
+            border-width:15px 10px;
+            border-style:solid;
+            border-color:  orange transparent transparent;
+            position:absolute;
+            left:60px;
+            bottom:-30px;
+        }
+
+/* 背景填充不规则夹角*/
+
+        .e_box{
+            margin: 32px;
+            width:100px;
+            padding:30px 20px;
+            margin-left:60px;
+            background:#beceeb;
+            position:relative;
+        }
+        .e_box span
+        {   width:0;
+            height:0;
+            font-size:0;
+            overflow:hidden;
+            position:absolute;
+        }
+        .e_box span.e_box_cor1{
+            border-width:20px;
+            border-style:solid;
+            border-color:#ffffff #beceeb #beceeb #ffffff;
+            left:-40px;
+            top:40px;
+        }
+        .e_box span.e_box_cor2{
+            border-width:10px 20px;
+            border-style:dashed solid solid dashed;
+            border-color:transparent #ffffff #ffffff transparent;
+            left:-40px;
+            top:60px;
+        }
+/*无背景填充 规则尖角*/
+        .j_box
+
+        {
+            margin: 52px;
+            width:0px;
+            padding:3px;
+            text-align: center;
+            border:1px solid #beceeb;
+            position:relative;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .j_box span
+        {   width:0;
+            height:0;
+            font-size:0;
+            overflow:hidden;
+            position:absolute;
+        }
+        .j_box span.j_box_cor1{
+            border-width:7px;
+            border-style:solid solid solid;
+            border-color: transparent transparent transparent #beceeb;
+            left:106px;
+            bottom:4px;
+        }
+
+        .j_box span.j_box_cor2{
+            border-width:7px;
+            border-style:solid solid solid;
+            border-color: transparent transparent transparent #fff;
+            left:103px;
+            bottom:4px;
+        }
+        .j_box{
+            transition: width .8s ease-out;
+            opacity:1
+        }
+        .j_box:hover{
+            animation: fadeIn .8s ease-out;
+            width:100px;
+        }
+        @keyframes fadeIn {
+            from{
+                opacity:1;
+            }
+            to{
+                opacity:1;
+            }
+        }
+    </style>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.transform2d.js"></script>
+
+</head>
+<body>
+ <div class="qipao" id="qipao">
+     <p>边框法实现尖角对话框</p>
+     <div class="c_box"><span class="c_box_cor"></span>竞品比较</div>
+     <div class="e_box">
+         <span class="e_box_cor1"></span>
+          <span class="e_box_cor2"></span>
+            课程考试
+     </div>
+     <div class="j_box">
+         <span class="j_box_cor1"></span>
+         <span class="j_box_cor2"></span>
+         晶锐360</div>
+ </div>
+
+
+ <!--<script>-->
+     <!--$('.j_box').hover(function () {-->
+         <!--$(".j_box").stop().width(100).animate({opacity:1});-->
+     <!--},function () {-->
+         <!--$(".j_box").stop().animate({opacity:0.5});-->
+     <!--});-->
+ <!--</script>-->
+</body>
+</html>

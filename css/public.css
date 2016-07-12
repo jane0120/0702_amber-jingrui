@@ -1,0 +1,38 @@
+body {
+    /*overflow: hidden;*/
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 18px;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif;
+
+}
+.container  {
+    margin: 0 auto;
+}
+.header{
+    margin: 10px auto 0;
+    width: 1280px;
+    height: 102px;
+    background: url("../imgs/logo.png") no-repeat;
+}
+.main{
+    margin: -25px auto 0;
+    width: 1280px;
+    height: 669px;
+}
+.footer{
+    width: 1280px;
+    height: 56px;
+    background: url("../imgs/footer.jpg") no-repeat;
+    margin:  -1px auto 0;
+    /*border:1px solid blue;*/
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}

@@ -1,0 +1,29 @@
+.modal-content{
+    color: #000;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.modal-header{
+  width: 600px;
+  background-color: rgb(76, 205, 92);
+  color: #ccc;
+  margin: 0;
+
+}
+.modal-body{
+    width: 600px;
+    height: 300px;
+    margin:0;
+    overflow-y: scroll;
+    line-height: 18px;
+}
+.modal-body h3{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+}
+.modal-body h3 span{
+    margin-left:350px;
+
+}

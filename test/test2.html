@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=gb2312">
+    <title>Title</title>
+</head>
+<body>
+<!-- js 控制 展开 隐藏div -->
+<img src="image/down.png" onclick="test(this)">  <!--this 指 img 对象 -->
+
+<div id="div2" style="border:1px solid #ccc; width:300px; height:200px; display: block;">
+    （1）每个HTML标记都有事件句柄属性。onClick是HTML标记属性，不分大小写。
+    （2）HTML标记对应的元素对象也具有事件句柄属性，这个属性必须全小写，因JS区分大小写
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    function test(obj){
+
+        var div1=document.getElementById("div2");
+        if(div1.style.display=="block"){
+            div1.style.display="none";
+            obj.src="image/up.png";
+        }else{
+            div1.style.display="block";
+            obj.src="image/down.png";
+        }
+    }
+</script>

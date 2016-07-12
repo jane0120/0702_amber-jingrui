@@ -1,0 +1,370 @@
+
+.btn{
+    position: absolute;
+    display: none;
+    width: 1280px;
+    height: 669px;
+    -o-animation:fadeIn .6s  ease-out;
+    -webkit-animation: fadeIn .6s ease-out ;
+    animation: fadeIn .6s  ease-out;
+    background: url("../../imgs/menu/main2.png");
+    background-repeat: no-repeat;
+
+}
+.back{
+    position: absolute;
+    -o-animation:fadeRight .6s  linear forwards;
+    -webkit-animation: fadeRight .6s  linear forwards;
+    animation: fadeRight .6s  linear forwards;
+    margin-top: 50px;
+    margin-left:84px;
+    width: 38px;
+    height:38px;
+    border: 4px solid black;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.left {
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    z-index: 9;
+    left: 1px;
+    top: 3px;
+    background: url("../../imgs/menu/j1.png");
+}
+.right {
+    transform: scale(0);
+    opacity: 0;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    z-index: 9;
+    left: 40px;
+    /*top:0;*/
+    top: 3px;
+    background: url("../../imgs/menu/j1.png");
+}
+.menu{
+    position: relative;
+}
+
+.menu div{
+    transition: all 0.1s ease-out;
+
+}
+.menu1{
+    position: absolute;
+    margin: 0px;
+    width: 418px;
+    height: 317px;
+    left: 60px;
+    top: 177px;
+    right: auto;
+    bottom: auto;
+    cursor: pointer;
+    z-index: 0;
+
+}
+#img1{
+   background: url("../../imgs/menu/menu1.png");
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -webkit-transform: translate(90px, 2px) scale(.93,.93);
+    -moz-transform: translate(90px, 2px) scale(.93,.93);
+    -ms-transform:translate(90px, 2px) scale(.93,.93);
+    -o-transform: translate(90px, 2px) scale(.93,.93);
+    transform:translate(90px, 2px) scale(.93,.93) ;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 295px;
+    height: 272px;
+    right: auto;
+    bottom: auto;
+}
+
+#img11{
+    background: url("../../imgs/menu/menu11.png");
+    opacity:0;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 418px;
+    height: 312px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -moz-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -ms-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -o-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+#shadow1{
+    opacity:1;
+    background: url("../../imgs/menu/s1.png") no-repeat;
+    position: absolute;
+    margin: 0px;
+    top:0px;
+    left:0px;
+    width: 393px;
+    height: 56px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translate(10px, 329px)  scale(1, 1);
+    -moz-transform: translate(10px, 329px)  scale(1, 1);
+    -ms-transform: translate(10px, 329px)  scale(1, 1);
+    -o-transform: translate(10px, 329px)  scale(1, 1);
+    transform: translate(10px, 329px)  scale(1, 1);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.txt11 {
+    position: absolute;
+    margin: 0px;
+    opacity:0;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+    height: 30px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform:  translate(214px, 314px) scale(1, 1);
+    -moz-transform:  translate(214px, 314px) scale(1, 1);
+    -ms-transform:  translate(214px, 314px) scale(1, 1);
+    -o-transform:  translate(214px, 314px) scale(1, 1);
+    transform:  translate(214px, 314px) scale(1, 1);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: url(../../imgs/menu/t1.png) no-repeat ;
+}
+.menu2 {
+    position: absolute;
+    margin: 0px;
+    width: 439px;
+    height: 347px;
+    opacity: 1;
+    top: 177px;
+    left: 400px;
+    right: auto;
+    bottom: auto;
+    cursor: pointer;
+    z-index: 0;
+}
+#img2{
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    width: 295px;
+    height: 272px;
+    right: auto;
+    bottom: auto;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform:  translate(90px, -3px)  scale(.93,.93);
+    -moz-transform:  translate(90px, -3px)  scale(.93,.93);
+    -ms-transform:  translate(90px, -3px)  scale(.93,.93);
+    -o-transform:  translate(90px, -3px)  scale(.93,.93);
+    transform:  translate(90px, -3px)  scale(.93,.93);
+    background: url(../../imgs/menu/menu2.png) no-repeat;
+}
+#img21{
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+    width: 439px;
+    height: 312px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translate(28px, -2px)scale(.93, .93);
+    -moz-transform: translate(28px, -2px)scale(.93, .93);
+    -ms-transform: translate(28px, -2px)scale(.93, .93);
+    -o-transform: translate(28px, -2px)scale(.93, .93);
+    transform: translate(28px, -2px)scale(.93, .93);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: url(../../imgs/menu/menu21.png);
+
+}
+#shadow2{
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    width: 317px;
+    height: 49px;
+    right: auto;
+    bottom: auto;
+    transform-style:  preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate(59px, 298px) scale(0.82, 0.82);
+    -moz-transform: translate(59px, 298px) scale(0.82, 0.82);
+    -ms-transform: translate(59px, 298px) scale(0.82, 0.82);
+    -o-transform: translate(59px, 298px) scale(0.82, 0.82);
+    transform: translate(59px, 298px) scale(0.82, 0.82);
+    background: url(../../imgs/menu/s2.png);
+}
+#txt21{
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+    width: 121px;
+    height: 31px;
+    right: auto;
+    bottom: auto;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform:  translate(137px,307px) scale(1, 1);
+    -moz-transform:  translate(137px,307px) scale(1, 1);
+    -ms-transform:  translate(137px,307px) scale(1, 1);
+    -o-transform: translate(137px,307px) scale(1, 1) ;
+    transform:  translate(137px,307px) scale(1, 1);
+    background: url("../../imgs/menu/t2.png");
+}
+.menu3{
+    position: absolute;
+    margin: 0px;
+    width: 438px;
+    height: 363px;
+    opacity: 1;
+    left: 750px;
+    top: 177px;
+    right: auto;
+    bottom: auto;
+    cursor: pointer;
+    z-index: 0;
+}
+
+
+#img3{
+    position: absolute;
+    margin: 0px;
+    left: 0;
+    top: 0px;
+    width: 295px;
+    height: 272px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translate(90px, 2px) translateZ(0px) rotate(0deg) scale(0.93, 0.93);
+    -moz-transform: translate(90px, 2px) translateZ(0px) rotate(0deg) scale(0.93, 0.93);
+    -ms-transform: translate(90px, 2px) translateZ(0px) rotate(0deg) scale(0.93, 0.93);
+    -o-transform: translate(90px, 2px) translateZ(0px) rotate(0deg) scale(0.93, 0.93);
+    transform: translate(90px, 2px) translateZ(0px) rotate(0deg) scale(0.93, 0.93);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: url("../../imgs/menu/menu3.png") no-repeat;
+}
+#img31 {
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+    width: 439px;
+    height: 312px;
+    right: auto;
+    bottom: auto;
+    transform-style: preserve-3d ;
+    -webkit-transform-style: preserve-3d;
+    background: url("../../imgs/menu/menu31.png");
+    -webkit-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -moz-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -ms-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    -o-transform: translate(24px, 0px)  scale(0.93, 0.93);
+    transform: translate(24px, 0px)  scale(0.93, 0.93);
+}
+#txt31 {
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+    width: 125px;
+    height: 31px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate(82px, 319px) scale(1, 1);
+    transform: translate(82px, 319px)  scale(1, 1);
+    background: url("../../imgs/menu/t3.png") no-repeat;
+}
+#shadow3 {
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    width: 324px;
+    height: 67px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform:  translate(65px, 296px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -moz-transform:  translate(65px, 296px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -ms-transform:  translate(65px, 296px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -o-transform: translate(65px, 296px) translateZ(0px) rotate(0deg) scale(1, 1) ;
+    transform:  translate(65px, 296px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -webkit-transform-style: preserve-3d;
+     transform-style: preserve-3d ;
+    background: url("../../imgs/menu/s3.png");
+
+}
+.cur {
+    /*transform-origin: center bottom; cubic-bezier(.28,.14,.06,.75)*/
+    -webkit-animation:  bounce 1s ease-in-out alternate infinite;
+    -o-animation: bounce 1s ease-in-out alternate infinite;
+    animation: bounce 1s ease-in-out alternate infinite;
+}
+@keyframes bounce {
+    from{
+        transform: translateY(5px)
+    }
+     to{
+         transform: translateY(-1px)
+     }
+
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@keyframes fadeRight {
+    from{
+        transform: translateX(-20px)
+    }
+    to{
+        transform: translateX(10px)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

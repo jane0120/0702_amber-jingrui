@@ -1,0 +1,188 @@
+.view{
+    overflow:hidden;
+    position: absolute;
+    display: block;
+    /*display: none;*/
+    width: 1280px;
+    height: 669px;
+    -o-animation:fadeIn .6s  ease-in-out;
+    -webkit-animation: fadeIn .6s ease-in-out ;
+    animation: fadeIn .6s  ease-in-out;
+    background: url("../../imgs/home/main1.png");
+    background-repeat: no-repeat;
+
+}
+.learn{
+    position: absolute;
+    -o-animation:fromRight .6s  ease-in forwards;
+    -webkit-animation: fromRight .6s  ease-in forwards;
+    animation: fromRight .6s  ease-in forwards;
+    z-index: 5;
+    cursor: pointer;
+}
+.circle1{
+    position: absolute;
+    z-index:5;
+    top: 50px;
+    left:124px;
+    width: 38px;
+    height:38px;
+    border: 5px solid black;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius: 28px;
+    cursor: pointer;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate(0px, 3px)  scale(1, 1);
+    -moz-transform: translate(0px, 3px)  scale(1, 1);
+    -ms-transform: translate(0px, 3px)  scale(1, 1);
+    -o-transform: translate(0px, 3px)  scale(1, 1);
+    transform: translate(0px, 3px)  scale(1, 1);
+
+}
+.arrow1_left{
+    background: url("../../imgs/home/arrow1.png") no-repeat;
+    position: absolute;
+    margin: 0px;
+    left: 124px;
+    top:49px;
+    width: 50px;
+    height: 46px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    -moz-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    -ms-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    -o-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    transform: translate(-5px, 0px)  scale(0.48, 0.48);
+}
+
+.txt1 {
+   background: url("../../imgs/home/txt1.png") no-repeat;
+    position: absolute;
+    margin: 0px;
+    left: 130px;
+    top: 54px;
+    width: 210px;
+    height: 53px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -ms-transform:translate(23px, -4px) scale(0.75, 0.75) ;
+    -webkit-transform: translate(23px, -4px) scale(0.75, 0.75);
+    transform: translate(23px, -4px)  scale(0.75, 0.75);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.trip{
+    position: absolute;
+    -o-animation:fromRight .6s  ease-in forwards;
+    -webkit-animation: fromRight .6s  ease-in forwards;
+    animation: fromRight .6s  ease-in forwards;
+    cursor: pointer;
+    z-index: 5;
+}
+.circle2{
+    position: absolute;
+    margin: 0px;
+    left: 920px;
+    top: 560px;
+    width: 38px;
+    height: 38px;
+    right: auto;
+    bottom: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(150, 150, 150);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d ;
+    -webkit-transform:  translate(0px, 3px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -moz-transform:  translate(0px, 3px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -ms-transform:  translate(0px, 3px) translateZ(0px) rotate(0deg) scale(1, 1);
+    -o-transform:  translate(0px, 3px) translateZ(0px) rotate(0deg) scale(1, 1);
+    transform:  translate(0px, 3px) translateZ(0px) rotate(0deg) scale(1, 1);
+}
+.arrow2_left{
+    position: absolute;
+    margin: 0px;
+    left: 920px;
+    top: 560px;
+    width: 50px;
+    height: 46px;
+    right: auto;
+    bottom: auto;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    -moz-transform:translate(-5px, 0px)  scale(0.48, 0.48) ;
+    -ms-transform: translate(-5px, 0px)  scale(0.48, 0.48);
+    -o-transform:translate(-5px, 0px)  scale(0.48, 0.48) ;
+    transform:translate(-5px, 0px)  scale(0.48, 0.48) ;
+    background: url("../../imgs/home/arroow2.png") no-repeat;
+}
+.txt2{
+    position: absolute;
+    margin: 0px;
+    left: 920px;
+    top: 565px;
+    width: 253px;
+    height: 50px;
+    right: auto;
+    bottom: auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translate(24px, -3px) translateZ(0px) rotate(0deg) scale(0.8, 0.8);
+    -moz-transform: translate(24px, -3px) translateZ(0px) rotate(0deg) scale(0.8, 0.8);
+    -ms-transform: translate(24px, -3px) translateZ(0px) rotate(0deg) scale(0.8, 0.8);
+    -o-transform: translate(24px, -3px) translateZ(0px) rotate(0deg) scale(0.8, 0.8);
+    transform: translate(24px, -3px) translateZ(0px) rotate(0deg) scale(0.8, 0.8);
+    background: url("../../imgs/home/txt2.png") no-repeat;
+
+}
+
+.car{
+
+    position: absolute;
+    z-index: 5;
+    background: url("../../imgs/home/car.png") no-repeat;
+    background-size: auto;
+    width: 1192px;
+    height: 614px;
+    bottom:auto;
+    top:50px;
+    left:652px;
+    margin-left:452px;
+    /*animation: fromRight2  ease-in .8s forwards,fadeIn ease-in .3s forwards;*/
+    /*-webkit-animation: fromRight2 ease-in .8s forwards;*/
+}
+/*animation define*/
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes fromRight{
+    from{
+        opacity:0;
+        transform: translateX(20px)
+    }
+    to{
+        opacity:1;
+        transform: translateX(-20px)
+    }
+}
+
+@keyframes fromRight2{
+    from{
+        transform: translateX(0px)
+    }
+    to{
+        transform: translateX(-567px)
+    }
+}

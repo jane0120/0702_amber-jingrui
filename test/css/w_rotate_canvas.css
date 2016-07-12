@@ -1,0 +1,9 @@
+
+.w_car_rotate{
+    width: 1280px;
+    height:668px;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-image: url("/imgs/1.png");
+
+}

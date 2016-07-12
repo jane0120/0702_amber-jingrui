@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS查看浏览器版本</title>
+    <script src="../js/jquery.min.js"></script>
+    <script src="js/test_brower.js"></script>
+</head>
+<body>
+<div class="js1" style="display:none">
+    <p >此demo用来判断并输出浏览器版本</p>
+    <script type="text/javascript">
+
+        var Sys = {};
+
+        var ua = navigator.userAgent.toLowerCase();
+
+        var s;
+
+        (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+
+                (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+
+                        (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+
+                                (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+
+                                        (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+
+
+
+        //以下进行测试
+
+        if (Sys.ie) document.write('IE: ' + Sys.ie);
+
+        if (Sys.firefox) document.write('Firefox: ' + Sys.firefox);
+
+        if (Sys.chrome) document.write('Chrome: ' + Sys.chrome);
+
+        if (Sys.opera) document.write('Opera: ' + Sys.opera);
+
+        if (Sys.safari) document.write('Safari: ' + Sys.safari);
+    </script>
+</div>
+<div class="js2.w3c" style="display: none">
+    <p >此demo用来判断并输出浏览器版本</p>
+    <script type="text/javascript">
+        var browser=navigator.appName
+        var b_version=navigator.appVersion
+        var version=parseFloat(b_version)
+        document.write("浏览器名称："+ browser)
+        document.write("<br />")
+        document.write("浏览器版本："+ version)
+    </script>
+
+</div>
+</body>
+</html>
